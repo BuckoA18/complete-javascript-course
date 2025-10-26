@@ -1,0 +1,19 @@
+{
+	"name": "forkify",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.16.0",
+		"parcel": "^2.16.0"
+	},
+	"dependencies": {
+		"fraction.js": "^5.3.4"
+	}
+}
